@@ -1,0 +1,52 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>registration page</title>
+<style>
+body{
+height:100%;
+display:flex;
+justify-content: center;
+    align-items: center;
+}
+form{
+   height:15vh;
+    width: 40%;
+
+    display: grid;
+    grid-template-columns: 100px 20px 120px;
+}
+input[type="text"]{
+height:20px ;
+width:122px;
+}
+.button{
+display:flex;
+gap:10px;
+
+}
+input[type="button"]{
+background-color:lightblue;
+color:white;
+border:none;
+}
+</style>
+</head>
+<body>
+<form action="_blank">
+<label for="user" >User name</label>
+<label for="user" >:</label>
+<input type="text" id="user" name="user">
+<label for="pass" >Password</label>
+<label for="pass" >:</label>
+<input type="text" id="pass" name="pass">
+<label for="phone" >Phone number</label>
+<label for="phone" >:</label>
+<input type="text" id="phone" name="phone">
+<div class="button">
+<input type="button" value="submit">
+<input type="button" value="cancel">
+</div>
+</form>
+</body>
+</html>
